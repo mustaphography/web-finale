@@ -1,0 +1,397 @@
+/* fonts */
+@font-face {
+  font-family: navbar;
+  src: url(./fonts/Garlic-Sans-Regular.ttf);
+}
+@font-face {
+  font-family: logo;
+  src: url(./fonts/Rosseville.ttf);
+}
+/* page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  margin: 0;
+}
+
+.dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+.top-nav {
+  height: 25px;
+  width: 100%;
+  color: #ffffff;
+  background-color: #000000;
+}
+nav {
+  height: 150px;
+  width: 100%;
+  color: #ffffff;
+  font-family: navbar;
+  border: none;
+  background-color: #000f14;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.logo {
+  color: #ffffff;
+  font-size: 35px;
+  text-decoration: none;
+  line-height: 80px;
+  padding-left: 100px;
+  background-color: none;
+  margin-left: 50px;
+  padding-left: 50px;
+  padding-top: 25px;
+  margin-top: 25px;
+  padding: 5px;
+
+  padding-bottom: 0px;
+  font-family: logo;
+}
+nav ul.first-ul {
+  float: right;
+  margin-right: 200px;
+}
+nav ul li.first {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 10px;
+  border: none;
+}
+nav ul li a.first {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: navbar;
+  text-transform: uppercase;
+  border: none;
+}
+nav button {
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 10px 10px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: navbar;
+  letter-spacing: 2px;
+  margin: 0 10px;
+  background: none;
+  border: none;
+  outline: none;
+  margin-right: 75px;
+}
+.design {
+  background-color: none;
+}
+.cart {
+  margin-right: -50px;
+  margin-left: 20px;
+}
+i {
+  padding-left: 4px;
+  padding-top: 2px;
+  cursor: pointer;
+}
+/* search bar that is hard to do and takes a looooooooot of time and effort just to complete but never forget the silly errors that happen for no reason */
+.wrapper .search-box {
+  list-style: none;
+  width: 100%;
+  background-color: #000f14;
+  height: 60px;
+  display: flex;
+  padding: 8px;
+  border: 0;
+  text-align: center;
+  vertical-align: middle;
+  border: none;
+  outline: none;
+}
+.wrapper .search-box .dropdown {
+  width: 100px;
+  padding: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  margin-left: 40%;
+  border: 1px solid #ffffff;
+  position: relative;
+  border-top-left-radius: 15px;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom-left-radius: 15px;
+  cursor: pointer;
+}
+.wrapper .search-box .dropdown .default-option {
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  top: 15px;
+}
+.wrapper .search-box .dropdown ul {
+  position: absolute;
+  top: 52px;
+  width: 150px;
+  left: -22px;
+  background-color: #00b8f5;
+  color: #000f14;
+  border-radius: 15px;
+  font-size: 16px;
+  padding: 20px;
+  box-shadow: 8px 8px 6px -10px #000f14;
+  text-align: center;
+  vertical-align: middle;
+  display: none;
+}
+.wrapper .search-box .dropdown ul li {
+  margin-bottom: 10px;
+  padding: 5px;
+  transition: ease 0.5s;
+  border-radius: 10px;
+}
+.wrapper .search-box .dropdown ul li:last-child {
+  padding-bottom: 5px;
+  margin-bottom: -5px;
+}
+.wrapper .search-box .dropdown ul li:hover {
+  background-color: #001f29;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 10px;
+}
+.wrapper .search-box .dropdown:before {
+  content: "";
+  position: absolute;
+  top: 17px;
+  right: 5px;
+  border: 8px solid;
+  border-color: #00b8f5 transparent transparent transparent;
+}
+.wrapper .search-box .search-field {
+  width: 350px;
+  height: 44px;
+  position: relative;
+  outline: none;
+  color: #ffffff;
+  background-color: none;
+}
+.wrapper .search-box .search-field .input {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ffffff;
+  padding-left: 20px;
+  padding-right: 100px;
+  color: #ffffff;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  background: transparent;
+  outline: none;
+}
+.wrapper .search-box .search-field .fas {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  right: 15px;
+  font-size: 18px;
+}
+
+/* image slider rotating like a roulette that looks soooo dope and cool */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 70vh;
+  background-color: #000f14;
+  background-image: url("./pics/Dark-Blue-Bokeh-Wallpaper.jpg");
+}
+.box {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  transform-style: preserve-3d;
+  animation: animate 60s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: perspective(1000px) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(1000px) rotateY(360deg);
+  }
+}
+.box span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i) * 45deg)) translateZ(400px);
+}
+.box span img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* finished the roulette */
+/* start of dem cards */
+.card-body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-family: sans-serif;
+}
+.box1 {
+  width: 1450px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 15px;
+  margin: 0 auto;
+}
+.card {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  background: #fff;
+
+  margin: 0 auto;
+  margin-top: 40px;
+
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.card:before,
+.card:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  background: #fff;
+  transition: 0.5s;
+  z-index: -1;
+}
+.card:hover:before {
+  transform: rotate(20deg);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+.card:hover:after {
+  transform: rotate(10deg);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+.card .imgBx {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: #222;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.card:hover .imgBx {
+  bottom: 80px;
+}
+
+.card .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card .details {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  height: 60px;
+  text-align: center;
+}
+
+.card .details h2 {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 20px;
+  color: #000f14;
+  text-transform: uppercase;
+}
+
+.card .details h2 span {
+  font-weight: 500;
+  font-size: 16px;
+  color: #bd4089;
+  display: block;
+  margin-top: 5px;
+}
+footer {
+  color: #ffffff;
+  background-color: #000f14;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.heart {
+  color: #bd4089;
+}

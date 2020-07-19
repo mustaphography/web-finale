@@ -1,0 +1,30 @@
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  border: 10px solid #232943;
+  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #000046, #1cb5e0);
+  border-radius: 3px;
+}
+/* fonts */
+@font-face {
+  font-family: navbar;
+  src: url(./fonts/Garlic-Sans-Regular.ttf);
+}
+@font-face {
+  font-family: logo;
+  src: url(./fonts/Rosseville.ttf);
+}
+/* footer */
+footer {
+  color: #ffffff;
+  background-color: #000f14;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 50px;
+}

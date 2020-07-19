@@ -1,0 +1,1432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shoes</title>
+    <link rel="stylesheet" href="./assets/stylesheet.css" />
+    <link rel="stylesheet" href="./assets/stylesheet-shoeses.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://kit.fontawesome.com/7ed3063285.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link
+      href="//fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,regular,italic,700,700italic&subset=latin-ext,greek-ext,cyrillic-ext,greek,vietnamese,latin,cyrillic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      /* jssor slider loading skin spin css */
+      .jssorl-009-spin img {
+        animation-name: jssorl-009-spin;
+        animation-duration: 1.6s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+
+      @keyframes jssorl-009-spin {
+        from {
+          transform: rotate(0deg);
+        }
+
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      /*jssor slider bullet skin 132 css*/
+      .jssorb132 {
+        position: absolute;
+      }
+      .jssorb132 .i {
+        position: absolute;
+        cursor: pointer;
+      }
+      .jssorb132 .i .b {
+        fill: #fff;
+        fill-opacity: 0.8;
+        stroke: #000;
+        stroke-width: 1600;
+        stroke-miterlimit: 10;
+        stroke-opacity: 0.7;
+      }
+      .jssorb132 .i:hover .b {
+        fill: #000;
+        fill-opacity: 0.7;
+        stroke: #fff;
+        stroke-width: 2000;
+        stroke-opacity: 0.8;
+      }
+      .jssorb132 .iav .b {
+        fill: #000;
+        stroke: #fff;
+        stroke-width: 2400;
+        fill-opacity: 0.8;
+        stroke-opacity: 1;
+      }
+      .jssorb132 .i.idn {
+        opacity: 0.3;
+      }
+
+      .jssora051 {
+        display: block;
+        position: absolute;
+        cursor: pointer;
+      }
+      .jssora051 .a {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 360;
+        stroke-miterlimit: 10;
+      }
+      .jssora051:hover {
+        opacity: 0.8;
+      }
+      .jssora051.jssora051dn {
+        opacity: 0.5;
+      }
+      .jssora051.jssora051ds {
+        opacity: 0.3;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navigation bars. Yep I've got 3 just here -->
+    <!-- first one here -->
+
+    <!-- second nav which is done yaaaaaaay -->
+    <nav>
+      <!-- <input type="checkbox" id="check" />
+      <label for="check" class="checkbtn"></label>
+      <i class="fas fa-bars checkbtn"></i> -->
+      <label class="logo"><a class="logo" href="#">Custom</a></label>
+      <ul class="first-ul">
+        <li class="first">
+          <button type="button" onclick="document.location='./index.html'">
+            HOME
+          </button>
+        </li>
+        <li class="first">
+          <div class="dropdown">
+            <button type="button" onclick="myFunction()" class="dropbtn">
+              Products<i class="fas fa-chevron-circle-down"></i>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="./hats.html">Hats</a>
+                <a href="./shoeses.html">Shoes</a>
+                <a href="./hoodies.html">Hoodies</a>
+              </div>
+            </button>
+          </div>
+        </li>
+        <li class="first">
+          <button class="design" type="button">
+            Design<i class="fas fa-chevron-circle-down"></i>
+          </button>
+        </li>
+        <li class="first">
+          <button type="button">
+            About
+          </button>
+        </li>
+        <li class="first">
+          <button class="cart" type="button">
+            Cart<i class="fas fa-shopping-cart"></i>
+          </button>
+        </li>
+      </ul>
+      <!-- search box and button that looks awesome here -->
+      <div class="wrapper">
+        <div class="search-box">
+          <div class="dropdown">
+            <span class="default-option">All</span>
+            <ul>
+              <li>All</li>
+              <li>T-shirts</li>
+              <li>Cups</li>
+              <li>Hats</li>
+            </ul>
+          </div>
+          <div class="search-field">
+            <input type="text" class="input" placeholder="Search" />
+            <i class="fas fa-search"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- slideshow -->
+    <main>
+      <div class="box">
+        <span style="--i: 1;"><img src="./assets/pics/hats/cstm 1.png" /></span>
+        <span style="--i: 2;"><img src="./assets/pics/hats/cstm 2.jpg" /></span>
+        <span style="--i: 3;"><img src="./assets/pics/hats/cstm 3.jpg" /></span>
+        <span style="--i: 4;"><img src="./assets/pics/hats/cstm 9.jpg" /></span>
+        <span style="--i: 5;"><img src="./assets/pics/hats/cstm 5.jpg" /></span>
+        <span style="--i: 6;"><img src="./assets/pics/hats/cstm 6.jpg" /></span>
+        <span style="--i: 7;"><img src="./assets/pics/hats/cstm 7.jpg" /></span>
+        <span style="--i: 8;"><img src="./assets/pics/hats/cstm 8.jpg" /></span>
+      </div>
+    </main>
+    <!-- shoe cards -->
+    <div class="cards-body">
+      <ul class="card">
+        <li>
+          <div class="details">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <p>$130</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <p>$185</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <p>$180</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free RN Motion Flyknit 2018</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Rise React Flyknit LMTD</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08b.png"
+            />
+          </div>
+        </li>
+        <!-- <li>
+          <div class="details">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <p>$160</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <p>$90</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <p>$130</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <p>$185</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <p>$180</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free RN Motion Flyknit 2018</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Rise React Flyknit LMTD</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <p>$160</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <p>$90</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <p>$130</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <p>$185</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <p>$180</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free RN Motion Flyknit 2018</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Rise React Flyknit LMTD</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <p>$160</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <p>$90</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <p>$130</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <p>$185</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <p>$180</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free RN Motion Flyknit 2018</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Rise React Flyknit LMTD</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <p>$160</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <p>$90</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <p>$130</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <p>$185</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <p>$180</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free RN Motion Flyknit 2018</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Rise React Flyknit LMTD</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <p>$160</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <p>$90</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <p>$130</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <p>$185</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <p>$180</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free RN Motion Flyknit 2018</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Rise React Flyknit LMTD</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <p>$160</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <p>$90</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <p>$130</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <p>$185</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <p>$180</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free RN Motion Flyknit 2018</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Rise React Flyknit LMTD</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <p>$160</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <p>$90</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <p>$130</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <p>$185</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <p>$180</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free RN Motion Flyknit 2018</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Rise React Flyknit LMTD</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <p>$160</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <p>$90</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11b.png"
+            />
+          </div>
+        </li>
+        <li>
+          <div class="details">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12a.png"
+            />
+            <img
+              src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12b.png"
+            />
+          </div>
+        </li> -->
+      </ul>
+    </div>
+    <script src="./assets/script.js"></script>
+  </body>
+</html>
